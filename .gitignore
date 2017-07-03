@@ -9,6 +9,7 @@ bin/
 sample_img/*.jpg
 !sample_img/sample_*.jpg
 sample_img/out/*
+car_img/
 
 # Annotated test results
 results/
@@ -26,6 +27,7 @@ tfnet/yolo/*.parsed
 # Built cython files
 darkflow/cython_utils/*.pyd
 darkflow/cython_utils/*.c
+darkflow/cython_utils/*.so
 
 #egg-info
 darkflow.egg-info/
